@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    background: #0a73c0;
+    /* background-color: var(--bg-blue-color); */
+    position: relative;
+    padding: 70px 0 134px;
+    overflow: hidden;
+  }
+  
+  .left-column {
+    flex: 1;
+    padding: 50px;
+    /* background-color: #f0f0f0; */
+    text-align: left;
+  }
+  
+  .right-column {
+    flex: 1;
+    padding: 50px;
+    /* background-color: #fff; */
+    text-align: center;
+  }
+  
+  h1, h2 {    width: 100%;
+    letter-spacing: 1.5px;
+    margin: 30px;
+    color: #ffffff;
+    font-family: monospace;
+    font-weight: 100;
+  }
+ 
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    margin-top: 10px;
+  }
+  
+
+  .stats p {
+    color: #ffffff;
+    font-size: 1.5rem;
+  }
+
+  .stats {
+    
+    display: flex;
+    margin: 30px;
+    justify-content: space-between;
+  
+    margin-top: 20px;
+  }
+  
+  .stat {
+    /* margin: 20px; */
+    padding: 20px;
+   
+    text-align: center;
+  }
+  
+  .big {
+    display: inline;
+    font-size: 1rem;
+    /* font-weight: bold; */
+    /* margin-bottom: 5px; */
+
+  
+  }
+  @media screen and (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  
+    .left-column, .right-column {
+      flex: 1;
+      padding: 30px;
+    }
+  }
+  
+
+
+  .right-column {
+    flex: 1;
+    padding-right: 20px;
+  }
+  .right-column img {
+    max-width: 100%;
+    height: auto;
+    
+  }
+
+
+
+
+
+
+
+
+
+
+  
+
+.custom-button { 
+width: 220px;
+
+  padding: 10px 20px;
+  background-color: #3498db;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+  background-color: #2980b9;
+}
+
